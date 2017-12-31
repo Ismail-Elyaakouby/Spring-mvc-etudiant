@@ -72,5 +72,17 @@
 		</plugins>
 	</build>
 	
+  <distributionManagement>
+    <repository>
+      <id>releases</id>
+      <!-- CHANGE HERE by your team nexus server -->
+      <url>https://mymavenrepo.com/repo/E0GRxNi0y7Ak1I0aMRzr/</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <!-- CHANGE HERE by your team nexus server -->
+      <url>https://mymavenrepo.com/repo/9slEGpRnWvZvIaNcnubL/</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
